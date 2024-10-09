@@ -2572,6 +2572,12 @@ input, select, textarea {
 			margin: 0;
 		}
 
+		.work-item img {
+			width: 100%;
+			height: 250px; /* Adjust the height to your desired size */
+			object-fit: cover; /* Ensures the image fits within the bounds without distortion */
+		}
+
 /* Header */
 
 	#header {
